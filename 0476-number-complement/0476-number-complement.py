@@ -1,6 +1,6 @@
 class Solution:
     def findComplement(self, num: int) -> int:
-        print(bin(num)[2:])
+
         complement = []
         for i, item in enumerate(bin(num)[2:]) :
             if item == "1" :
